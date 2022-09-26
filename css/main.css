@@ -1,0 +1,14 @@
+/*GENERAL SETTINGS*/
+*{
+    font-family: 'Roboto', sans-serif;
+ }
+
+header{
+    background-image: url('../img/pattern.jpg');
+    width: auto;
+    height: 60px;
+    }
+
+.bottom{
+padding-top: 40px;
+}
