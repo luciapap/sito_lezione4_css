@@ -1,14 +1,138 @@
-/*GENERAL SETTINGS*/
+/*GENERAL STYLES*/
 *{
     font-family: 'Roboto', sans-serif;
  }
 
+ body{
+    margin: 0;
+ }
+
+ /*COMMONS*/
+ .container{
+    margin: 0 auto;
+    width: 55%;
+ }
+
+ .highlight{
+    background: yellow;
+}
+
+/*HEADER*/
+
 header{
     background-image: url('../img/pattern.jpg');
-    width: auto;
-    height: 60px;
+    background-size: 63%;
+    background-position: 76px 0;
     }
+
+
+/*MAIN CONTENT*/
+main{
+padding: 0 10px;
+}
+
+h1{
+    margin-bottom:0;
+    font-size: 38px;
+}
+
+.author{
+    font-size: 18px;
+    color:grey;
+}
+
+.author-name{
+    font-size: 18px;
+    color:#20a9e5;
+}
+
+.date{
+    font-size: 12px;
+    color:grey;
+}
+
+#descr_imm{
+    font-size: 13px;
+}
+
+
 
 .bottom{
 padding-top: 40px;
 }
+
+.author{
+    color: grey;
+    font-size: 13px;
+}
+
+
+/*CONTENT SECTION*/
+p{
+    margin: 30px 0;
+}
+
+ul{
+    margin: 0 0 30px;
+    padding-left: 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+thead{
+    background-color:#20a9e5;
+    text-align: left;
+    color: #fff;
+}
+
+.half-widht{
+    width: 50%;
+}
+    
+
+.lightblu{
+    background-color: #b1e5f2;
+}
+
+
+/*FOOTER*/
+footer{
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+.footer-title{
+    margin-bottom: 10px;
+    font-size: 15px;
+    color:gray;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ccc;
+    background-size: cover;
+}
+
+#image1{
+    background-image: url('../img/footer1.jpg.crdownload');
+}
+
+#image2{
+    background-image: url('../img/footer2.jpg');
+}
+
+.image-text{
+    margin: 0;
+    font-size: 18;
+    color: #fff;
+}
+
+
+
+
+
